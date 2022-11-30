@@ -1,3 +1,2 @@
-FROM tomcat 
-EXPOSE 9000
+FROM tomcat:9
 COPY target/petclinic.war /usr/local/tomcat/webapps/
